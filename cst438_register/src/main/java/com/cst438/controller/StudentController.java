@@ -38,6 +38,7 @@ public class StudentController {
         student.setName(studentDTO.studentName);
         student.setEmail(studentDTO.studentEmail);
         student.setStatusCode(0);
+        studentRepository.save(student);
         return student;
     }
 
