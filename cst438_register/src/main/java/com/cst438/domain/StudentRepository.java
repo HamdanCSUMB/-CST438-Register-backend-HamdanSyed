@@ -13,5 +13,4 @@ public interface StudentRepository extends CrudRepository<Student, Integer> {
     @Query("select s from Student s where s.student_id=:id")
     public Student findByStudentId(int id);
 
-    Student save(Student s);
 }
