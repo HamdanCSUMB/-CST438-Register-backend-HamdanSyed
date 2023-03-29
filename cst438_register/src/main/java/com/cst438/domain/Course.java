@@ -7,117 +7,117 @@ import javax.persistence.Id;
 
 @Entity
 public class Course {
-	
-	@Id
-	private int course_id;
-	private int year;
-	private String semester;
-	private int section;
-	private String title;
-	private String times;
-	private String building;
-	private String room;
-	private String instructor;
-	private Date start;
-	private Date end;
-	
-	public Course() {
-		super();
-	}
 
-	public int getCourse_id() {
-		return course_id;
-	}
+    @Id
+    private int course_id;
+    private int year;
+    private String semester;
+    private int section;
+    private String title;
+    private String times;
+    private String building;
+    private String room;
+    private String instructor;
+    private Date start;
+    private Date end;
 
-	public void setCourse_id(int course_id) {
-		this.course_id = course_id;
-	}
+    public Course() {
+        super();
+    }
 
-	public int getYear() {
-		return year;
-	}
+    public int getCourse_id() {
+        return course_id;
+    }
 
-	public void setYear(int year) {
-		this.year = year;
-	}
+    public void setCourse_id(int course_id) {
+        this.course_id = course_id;
+    }
 
-	public String getSemester() {
-		return semester;
-	}
+    public int getYear() {
+        return year;
+    }
 
-	public void setSemester(String semester) {
-		this.semester = semester;
-	}
+    public void setYear(int year) {
+        this.year = year;
+    }
 
-	public int getSection() {
-		return section;
-	}
+    public String getSemester() {
+        return semester;
+    }
 
-	public void setSection(int section) {
-		this.section = section;
-	}
+    public void setSemester(String semester) {
+        this.semester = semester;
+    }
 
-	public String getTitle() {
-		return title;
-	}
+    public int getSection() {
+        return section;
+    }
 
-	public void setTitle(String title) {
-		this.title = title;
-	}
+    public void setSection(int section) {
+        this.section = section;
+    }
 
-	public String getTimes() {
-		return times;
-	}
+    public String getTitle() {
+        return title;
+    }
 
-	public void setTimes(String times) {
-		this.times = times;
-	}
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
-	public String getBuilding() {
-		return building;
-	}
+    public String getTimes() {
+        return times;
+    }
 
-	public void setBuilding(String building) {
-		this.building = building;
-	}
+    public void setTimes(String times) {
+        this.times = times;
+    }
 
-	public String getRoom() {
-		return room;
-	}
+    public String getBuilding() {
+        return building;
+    }
 
-	public void setRoom(String room) {
-		this.room = room;
-	}
+    public void setBuilding(String building) {
+        this.building = building;
+    }
 
-	public String getInstructor() {
-		return instructor;
-	}
+    public String getRoom() {
+        return room;
+    }
 
-	public void setInstructor(String instructor) {
-		this.instructor = instructor;
-	}
+    public void setRoom(String room) {
+        this.room = room;
+    }
 
-	public Date getStart() {
-		return start;
-	}
+    public String getInstructor() {
+        return instructor;
+    }
 
-	public void setStart(Date start) {
-		this.start = start;
-	}
+    public void setInstructor(String instructor) {
+        this.instructor = instructor;
+    }
 
-	public Date getEnd() {
-		return end;
-	}
+    public Date getStart() {
+        return start;
+    }
 
-	public void setEnd(Date end) {
-		this.end = end;
-	}
+    public void setStart(Date start) {
+        this.start = start;
+    }
 
-	@Override
-	public String toString() {
-		return "Course [course_id=" + course_id + ", year=" + year + ", semester=" + semester + ", section=" + section
-				+ ", title=" + title + ", times=" + times + ", building=" + building + ", room=" + room
-				+ ", instructor=" + instructor + ", start=" + start + ", end=" + end + "]";
-	}
+    public Date getEnd() {
+        return end;
+    }
+
+    public void setEnd(Date end) {
+        this.end = end;
+    }
+
+    @Override
+    public String toString() {
+        return "Course [course_id=" + course_id + ", year=" + year + ", semester=" + semester + ", section=" + section
+                + ", title=" + title + ", times=" + times + ", building=" + building + ", room=" + room
+                + ", instructor=" + instructor + ", start=" + start + ", end=" + end + "]";
+    }
 
 }
